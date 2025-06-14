@@ -20,7 +20,7 @@ App Screenshot
 
 ## 🚀 Live Demo
 
-👉 [Click here to try Weather App](https://your-live-link-if-any.com)
+👉 [Click here to try Weather App](https://github.com/Arbaz1506/weather-app)
 
 ---
 
