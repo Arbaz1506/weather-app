@@ -103,7 +103,7 @@ html, body {
 
 /* Form Styles */
 .form-container {
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   gap: 10px;
