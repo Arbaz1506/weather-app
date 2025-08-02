@@ -154,7 +154,6 @@ html, body {
     filter: invert(0); /* show dark icon */
 }
 
-
 /* Loading */
 .loading-container img {
   width: 100px;
@@ -266,4 +265,318 @@ html, body {
 * {
     scrollbar-width: thin;
     scrollbar-color: #3f72af #112d4e;
+}
+
+/* ====== MEDIA QUERIES ====== */
+
+/* Mobile Portrait (320px - 480px) */
+@media screen and (max-width: 480px) {
+  .wrapper {
+    padding: 15px;
+  }
+  
+  .heading {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .tab-container {
+    gap: 10px;
+    margin-bottom: 2rem;
+  }
+  
+  .tab {
+    padding: 8px 15px;
+    font-size: 0.75rem;
+    min-width: 80px;
+  }
+  
+  .sub-container {
+    padding: 1rem;
+  }
+  
+  .grant-title {
+    font-size: 1.2rem;
+  }
+  
+  .grant-subtitle {
+    font-size: 0.85rem;
+  }
+  
+  .form-container {
+    flex-direction: column;
+    gap: 15px;
+    max-width: 100%;
+  }
+  
+  .form-container input {
+    max-width: 100%;
+    padding: 12px 20px;
+  }
+  
+  .search-button {
+    margin-left: 0;
+    width: 100%;
+    max-width: 120px;
+    height: 45px;
+    border-radius: 10px;
+  }
+  
+  .name {
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .weather-desc {
+    font-size: 1.1rem;
+  }
+  
+  .weather-icon {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .temperature {
+    font-size: 2rem;
+  }
+  
+  .parameter-container {
+    gap: 15px;
+    margin-top: 1.5rem;
+  }
+  
+  .parameter {
+    width: 140px;
+    padding: 0.8rem;
+  }
+  
+  .parameter img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .label {
+    font-size: 0.9rem;
+  }
+  
+  .value {
+    font-size: 0.85rem;
+  }
+  
+  .loading-container img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .loading-text {
+    font-size: 1rem;
+  }
+}
+
+/* Mobile Landscape (481px - 768px) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .wrapper {
+    padding: 18px;
+  }
+  
+  .heading {
+    font-size: 2.2rem;
+    margin-bottom: 1.8rem;
+  }
+  
+  .tab-container {
+    gap: 15px;
+    margin-bottom: 2.2rem;
+  }
+  
+  .tab {
+    padding: 9px 18px;
+    font-size: 0.8rem;
+  }
+  
+  .form-container {
+    max-width: 500px;
+  }
+  
+  .form-container input {
+    max-width: 350px;
+  }
+  
+  .name {
+    font-size: 1.8rem;
+  }
+  
+  .weather-desc {
+    font-size: 1.15rem;
+  }
+  
+  .weather-icon {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .temperature {
+    font-size: 2.2rem;
+  }
+  
+  .parameter-container {
+    gap: 18px;
+  }
+  
+  .parameter {
+    width: 150px;
+    padding: 0.9rem;
+  }
+  
+  .parameter img {
+    width: 45px;
+    height: 45px;
+  }
+  
+  .loading-container img {
+    width: 90px;
+    height: 90px;
+  }
+  
+  .loading-text {
+    font-size: 1.1rem;
+  }
+}
+
+/* Tablet Portrait (769px - 1024px) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .wrapper {
+    padding: 25px;
+  }
+  
+  .parameter-container {
+    max-width: 600px;
+    margin: 2rem auto 0;
+  }
+  
+  .parameter {
+    width: 170px;
+  }
+  
+  .form-container {
+    max-width: 600px;
+  }
+}
+
+/* Desktop Small (1025px - 1200px) */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .parameter-container {
+    max-width: 700px;
+    margin: 2rem auto 0;
+  }
+  
+  .parameter {
+    width: 180px;
+  }
+}
+
+/* Desktop Large (1201px and up) */
+@media screen and (min-width: 1201px) {
+  .wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  .parameter-container {
+    max-width: 800px;
+    margin: 2rem auto 0;
+  }
+  
+  .parameter {
+    width: 190px;
+    padding: 1.2rem;
+  }
+}
+
+/* Landscape Orientation Adjustments */
+@media screen and (orientation: landscape) and (max-height: 600px) {
+  .wrapper {
+    padding: 10px 20px;
+  }
+  
+  .heading {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .tab-container {
+    margin-bottom: 1.5rem;
+  }
+  
+  .sub-container {
+    padding: 1rem;
+  }
+  
+  .parameter-container {
+    margin-top: 1.5rem;
+    gap: 15px;
+  }
+  
+  .parameter {
+    padding: 0.8rem;
+  }
+  
+  .weather-icon {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .temperature {
+    font-size: 2rem;
+    margin-top: 8px;
+  }
+}
+
+/* High DPI / Retina Displays */
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+       screen and (min-resolution: 192dpi) {
+  .search-button img,
+  .name img,
+  .parameter img {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+  }
+}
+
+/* Accessibility - Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .btn,
+  .search-button,
+  .tab {
+    transition: none;
+  }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+  /* Already using dark theme, but can add specific dark mode adjustments if needed */
+}
+
+/* Print Styles */
+@media print {
+  html, body {
+    background: white;
+    color: black;
+  }
+  
+  .wrapper {
+    padding: 20px;
+  }
+  
+  .tab-container,
+  .btn,
+  .search-button {
+    display: none;
+  }
+  
+  .user-info-container {
+    display: block !important;
+  }
 }
